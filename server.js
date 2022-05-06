@@ -56,7 +56,7 @@ io.on('connection', (socket) => {
     io.sockets.emit('broadcast', {
       event: broadcastEventTypes.GROUP_CALL_ROOMS,
       groupCallRooms
-    }); dWG5Y6124
+    }); 
   });
 
   socket.on('disconnect', () => {
